@@ -1,0 +1,15 @@
+{
+  "name": "tarjeta-perfil",
+  "version": "1.0.0",
+  "description": "Tarjeta de perfil con posicionamiento con tailwind",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -D build.css --minify"
+  },
+  "author": "Gresly Coronel",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
